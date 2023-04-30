@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 1080px;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.main-container {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.qr-code {
+    width: 288px;
+    margin-top: 16px;
+
+    border-radius: 10px;
+}
+
+.text {
+    width: 260px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 20px;
+}
